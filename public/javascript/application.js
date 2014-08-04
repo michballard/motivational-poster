@@ -1,5 +1,12 @@
+
 $(document).on('click', '#go-search', function() {
   findImagesOnGoogle({keywords: $('#search-term').val(), container: '#search-results'})
+});
+
+$(document).on('keypress', '#search-term', function(event) {
+	if(event.keyCode == 13){
+  		findImagesOnGoogle({keywords: $('#search-term').val(), container: '#search-results'})		
+	}
 });
 
 $(document).on('click', '#search-results img', function() {
@@ -36,3 +43,4 @@ $(document).on('change', '#colour', function() {
 $(document).on('change', '#align', function() {
 	$("#caption").css("text-align", $(this).val());
 });
+
