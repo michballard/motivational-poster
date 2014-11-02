@@ -6,10 +6,10 @@ Motivational Poster
 
 This motivational poster web app was created on the first day of Makers Academy.  It is designed to allow you to search for an image on Google, add text to it and format the text.  
 
-Finding a Google image:
+1. Find a suitable Google image:
 ![Screenshot 1](/public/images/screenshot1.png)
 
-Formatting the motivational poster:
+2. Format the poster:
 ![Screenshot 2](/public/images/screenshot2.png)
 
 Technologies used
@@ -23,18 +23,18 @@ How to run it
 -------------
 
 Clone this repository:
-'''shell
+```shell
 git clone git@github.com:michballard/motivational-poster.git
-'''
+```
 
 Run the following:
-'''shell
+```shell
 cd motivational-poster
 bundle install
 rackup
-'''
+```
 
 Open your web browser and type:
-'''
+```
 localhost:9292
-'''
+```
