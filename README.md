@@ -1,6 +1,8 @@
 | [Makers Academy](http://www.makersacademy.com) | Week 1 |
 | ------ | ------ |
 
+<a href="https://codeclimate.com/github/michballard/motivational-poster"><img src="https://codeclimate.com/github/michballard/motivational-poster/badges/gpa.svg" /></a>
+
 Motivational Poster
 ===================
 
